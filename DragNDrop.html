@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <style>
+        #place1, #place2, #place3, #place4, #place5{
+             float: left;
+             width: 250px;
+             height: 45px;
+             margin: 10px;
+             padding-left: 20px;
+             padding-top: 1px;
+             border: 3px solid black;
+         }
+         #mainBody{
+             float: left;
+             width: 70%;
+             height: 80%;
+             margin: 10px;
+             padding: 10px;
+             border: 3px solid green;
+         }
+         #text{
+             position: relative;
+             font-size: 30px;
+         }
+         #submit{
+             position: absolute;
+             left: 30%;
+             top: 80%;
+             width: 40%;
+             height: 10%;
+             font-size: 40px;
+             background-color: dodgerblue;
+         }
+        #selection{
+            float: left;
+            position:absolute;
+            left: 6%;
+            top: 10%;
+            width: 10%;
+            height: 80%;
+            margin: 10px;
+            padding: 10px;
+            border: 3px solid red;
+        }
+        #drag1, #drag2, #drag3, #drag4, #drag5, #drag6, #drag7, #drag8, #drag9, #drag10, #drag11, #drag12{
+            float: left;
+            padding: 5px;
+            margin: 7px;
+            text-align: center;
+            font-size: 30px;
+            border: 1px dashed cornflowerblue;
+            width: 175px;
+            height: 40px;
+        }
+    </style>
+    <script>
+        function allowDrop(event) {
+            event.preventDefault();
+        }
+
+        function drag(event) {
+            event.dataTransfer.setData("text", event.target.id);
+        }
+
+        function drop(event) {
+            event.preventDefault();
+            var data = event.dataTransfer.getData("text");
+            event.target.appendChild(document.getElementById(data));
+        }
+    </script>
+</head>
+<body>
+
+<h2>Drag and Drop</h2>
+
+    <div id="selection" ondrop="drop(event)" ondragover="allowDrop(event)">
+    selectable option here
+    <div id="drag1" draggable="true" ondragstart="drag(event)">
+        1
+    </div>
+    <div id="drag2" draggable="true" ondragstart="drag(event)" >
+         2
+    </div>
+    <div id="drag3" draggable="true" ondragstart="drag(event)" >
+        3
+    </div>
+    <div id="drag4" draggable="true" ondragstart="drag(event)" >
+        4
+    </div>
+    <div id="drag5" draggable="true" ondragstart="drag(event)" >
+        5
+    </div>
+    <div id="drag6" draggable="true" ondragstart="drag(event)">
+        6
+    </div>
+    <div id="drag7" draggable="true" ondragstart="drag(event)">
+        7
+    </div>
+    <div id="drag8" draggable="true" ondragstart="drag(event)" >
+        8
+    </div>
+    <div id="drag9" draggable="true" ondragstart="drag(event)" >
+        9
+    </div>
+    <div id="drag10" draggable="true" ondragstart="drag(event)">
+        10
+    </div>
+    <div id="drag11" draggable="true" ondragstart="drag(event)">
+        11
+    </div>
+</div>
+
+<div id="mainBody" style="position: absolute;left: 19%; top: 10%">
+    <p id="text" style="left: 22%; top: 10%">Finish the following code to make "myInt" equal 10 <br><br><br> public static void main{
+        <br>    myInt = 5; <br> for(int i = 0; i < __________________ ;i++)<br> { <br> myInt++; <br> } <br>}</p>
+<div id="place1" ondrop="drop(event)" ondragover="allowDrop(event)" style="position: absolute; top: 34%; left: 36%"></div>
+<button id="submit">submit</button>
+</div>
+</body>
+</html>
