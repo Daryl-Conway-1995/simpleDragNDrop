@@ -2,7 +2,7 @@
 <html>
 <head>
     <style>
-        #place1, #place2, #place3, #place4, #place5{
+        .place{
              float: left;
              width: 250px;
              height: 45px;
@@ -19,7 +19,7 @@
              padding: 10px;
              border: 3px solid green;
          }
-         #text{
+         .text{
              position: relative;
              font-size: 30px;
          }
@@ -32,7 +32,7 @@
              font-size: 40px;
              background-color: dodgerblue;
          }
-        #selection{
+        .selection{
             float: left;
             position:absolute;
             left: 6%;
@@ -43,7 +43,7 @@
             padding: 10px;
             border: 3px solid red;
         }
-        #drag1, #drag2, #drag3, #drag4, #drag5, #drag6, #drag7, #drag8, #drag9, #drag10, #drag11, #drag12{
+        .drag {
             float: left;
             padding: 5px;
             margin: 7px;
@@ -65,8 +65,14 @@
 
         function drop(event) {
             event.preventDefault();
-            var data = event.dataTransfer.getData("text");
-            event.target.appendChild(document.getElementById(data));
+            if(event.target.className == "place"||event.target.className=="selection") {
+                var data = event.dataTransfer.getData("text");
+                event.target.appendChild(document.getElementById(data));
+            }
+        }
+
+        function getElement(event){
+            console.log(document.getElementById("place1").firstChild);
         }
     </script>
 </head>
@@ -74,48 +80,48 @@
 
 <h2>Drag and Drop</h2>
 
-    <div id="selection" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <div id="selection" ondrop="drop(event)" ondragover="allowDrop(event)" class="selection">
     selectable option here
-    <div id="drag1" draggable="true" ondragstart="drag(event)">
+    <div id="drag1" draggable="true" ondragstart="drag(event)" class="drag">
         1
     </div>
-    <div id="drag2" draggable="true" ondragstart="drag(event)" >
+    <div id="drag2" draggable="true" ondragstart="drag(event)" class="drag">
          2
     </div>
-    <div id="drag3" draggable="true" ondragstart="drag(event)" >
+    <div id="drag3" draggable="true" ondragstart="drag(event)" class="drag">
         3
     </div>
-    <div id="drag4" draggable="true" ondragstart="drag(event)" >
+    <div id="drag4" draggable="true" ondragstart="drag(event)" class="drag">
         4
     </div>
-    <div id="drag5" draggable="true" ondragstart="drag(event)" >
+    <div id="drag5" draggable="true" ondragstart="drag(event)" class="drag">
         5
     </div>
-    <div id="drag6" draggable="true" ondragstart="drag(event)">
+    <div id="drag6" draggable="true" ondragstart="drag(event)" class="drag">
         6
     </div>
-    <div id="drag7" draggable="true" ondragstart="drag(event)">
+    <div id="drag7" draggable="true" ondragstart="drag(event)" class="drag">
         7
     </div>
-    <div id="drag8" draggable="true" ondragstart="drag(event)" >
+    <div id="drag8" draggable="true" ondragstart="drag(event)" class="drag">
         8
     </div>
-    <div id="drag9" draggable="true" ondragstart="drag(event)" >
+    <div id="drag9" draggable="true" ondragstart="drag(event)" class="drag">
         9
     </div>
-    <div id="drag10" draggable="true" ondragstart="drag(event)">
+    <div id="drag10" draggable="true" ondragstart="drag(event)" class="drag">
         10
     </div>
-    <div id="drag11" draggable="true" ondragstart="drag(event)">
+    <div id="drag11" draggable="true" ondragstart="drag(event)" class="drag">
         11
     </div>
 </div>
 
 <div id="mainBody" style="position: absolute;left: 19%; top: 10%">
-    <p id="text" style="left: 22%; top: 10%">Finish the following code to make "myInt" equal 10 <br><br><br> public static void main{
+    <p id="text" style="left: 22%; top: 10%" class="text">Finish the following code to make "myInt" equal 10 <br><br><br> public static void main{
         <br>    myInt = 5; <br> for(int i = 0; i < __________________ ;i++)<br> { <br> myInt++; <br> } <br>}</p>
-<div id="place1" ondrop="drop(event)" ondragover="allowDrop(event)" style="position: absolute; top: 34%; left: 36%"></div>
-<button id="submit">submit</button>
+<div id="place1" ondrop="drop(event)" ondragover="allowDrop(event)" style="position: absolute; top: 34%; left: 36%" class="place"></div>
+<button id="submit" onclick="getElement()">Submit</button>
 </div>
 </body>
 </html>

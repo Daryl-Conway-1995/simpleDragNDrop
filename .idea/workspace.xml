@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f93d8e4-cbcc-4aed-b96f-2d38366c1063" name="Default" comment="" />
+    <list default="true" id="4f93d8e4-cbcc-4aed-b96f-2d38366c1063" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DragNDrop.html" beforeDir="false" afterPath="$PROJECT_DIR$/DragNDrop.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,8 +20,8 @@
       <file leaf-file-name="DragNDrop.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DragNDrop.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="315">
+              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -42,6 +45,9 @@
       <find>\n\&lt;h2\&gt;Drag and Drop\&lt;\/h2\&gt;\n\n\&lt;div id\=\&quot;place1\&quot; ondrop\=\&quot;drop\(event\)\&quot; ondragover\=\&quot;allowDrop\(event\)\&quot; style\=\&quot;position\:absolute\; left\: 6\%\; top\: 10\%\;\&quot;\&gt;\n    selectable option here\n    \&lt;div id\=\&quot;drag1\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; id\=\&quot;drag1\&quot;\&gt;\n        I AM A DRAGGABLE OBJECT\n    \&lt;\/div\&gt;\n    \&lt;div id\=\&quot;drag2\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; id\=\&quot;drag1\&quot;\&gt;\n    I AM ALSO A DRAGGABLE OBJECT\n\&lt;\/div\&gt;\n\&lt;\/div\&gt;\n</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -63,6 +69,7 @@
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -102,12 +109,13 @@
       <option name="presentableId" value="Default" />
       <updated>1532261387264</updated>
       <workItem from="1532261388493" duration="6565000" />
-      <workItem from="1532269064106" duration="188000" />
+      <workItem from="1532269064106" duration="461000" />
+      <workItem from="1532335999367" duration="1885000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6753000" />
+    <option name="totallyTimeSpent" value="8911000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -117,7 +125,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -141,6 +149,18 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/DragNDrop.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DragNDrop.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
           <folding>
@@ -153,8 +173,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DragNDrop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="315">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
