@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f93d8e4-cbcc-4aed-b96f-2d38366c1063" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DragNDrop.html" beforeDir="false" afterPath="$PROJECT_DIR$/DragNDrop.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,9 +19,15 @@
       <file leaf-file-name="DragNDrop.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DragNDrop.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="72" column="49" lean-forward="true" selection-start-line="72" selection-start-column="49" selection-end-line="72" selection-end-column="49" />
+            <state relative-caret-position="451">
+              <caret line="54" column="12" lean-forward="true" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
               <folding>
+                <element signature="e#133#139#0" expanded="true" />
+                <element signature="e#139#145#0" expanded="true" />
+                <element signature="e#264#270#0" expanded="true" />
+                <element signature="e#270#276#0" expanded="true" />
+                <element signature="e#379#385#0" expanded="true" />
+                <element signature="e#385#391#0" expanded="true" />
                 <element signature="e#4530#4536#0" expanded="true" />
                 <element signature="e#4561#4567#0" expanded="true" />
                 <element signature="e#4694#4700#0" expanded="true" />
@@ -154,12 +157,12 @@
       <updated>1532261387264</updated>
       <workItem from="1532261388493" duration="6565000" />
       <workItem from="1532269064106" duration="461000" />
-      <workItem from="1532335999367" duration="24193000" />
+      <workItem from="1532335999367" duration="25616000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31219000" />
+    <option name="totallyTimeSpent" value="32642000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -196,6 +199,12 @@
         <state relative-caret-position="714">
           <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
           <folding>
+            <element signature="e#133#139#0" expanded="true" />
+            <element signature="e#139#145#0" expanded="true" />
+            <element signature="e#264#270#0" expanded="true" />
+            <element signature="e#270#276#0" expanded="true" />
+            <element signature="e#379#385#0" expanded="true" />
+            <element signature="e#385#391#0" expanded="true" />
             <element signature="e#4530#4536#0" expanded="true" />
             <element signature="e#4561#4567#0" expanded="true" />
             <element signature="e#4694#4700#0" expanded="true" />
@@ -214,6 +223,12 @@
         <state relative-caret-position="459">
           <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
           <folding>
+            <element signature="e#133#139#0" expanded="true" />
+            <element signature="e#139#145#0" expanded="true" />
+            <element signature="e#264#270#0" expanded="true" />
+            <element signature="e#270#276#0" expanded="true" />
+            <element signature="e#379#385#0" expanded="true" />
+            <element signature="e#385#391#0" expanded="true" />
             <element signature="e#4530#4536#0" expanded="true" />
             <element signature="e#4561#4567#0" expanded="true" />
             <element signature="e#4694#4700#0" expanded="true" />
@@ -246,9 +261,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DragNDrop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="72" column="49" lean-forward="true" selection-start-line="72" selection-start-column="49" selection-end-line="72" selection-end-column="49" />
+        <state relative-caret-position="451">
+          <caret line="54" column="12" lean-forward="true" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
           <folding>
+            <element signature="e#133#139#0" expanded="true" />
+            <element signature="e#139#145#0" expanded="true" />
+            <element signature="e#264#270#0" expanded="true" />
+            <element signature="e#270#276#0" expanded="true" />
+            <element signature="e#379#385#0" expanded="true" />
+            <element signature="e#385#391#0" expanded="true" />
             <element signature="e#4530#4536#0" expanded="true" />
             <element signature="e#4561#4567#0" expanded="true" />
             <element signature="e#4694#4700#0" expanded="true" />

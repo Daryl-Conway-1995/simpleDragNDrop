@@ -56,7 +56,11 @@
     <script>
 
         var text = '{"value":"place holder", "placement":"place holder"}';
-
+        var changeScreen = "this has changed " +
+            "<br>hope this works " +
+            "<br> <span id=\"place1\" ondrop=\"drop(event)\" ondragover=\"allowDrop(event)\" class=\"place\">&emsp;&emsp;</span>" +
+            "<br> <span id=\"place2\" ondrop=\"drop(event)\" ondragover=\"allowDrop(event)\" class=\"place\">&emsp;&emsp;</span>" +
+            "<br> <span id=\"place3\" ondrop=\"drop(event)\" ondragover=\"allowDrop(event)\" class=\"place\">&emsp;&emsp;</span>";
 
 
         function allowDrop(event) {
@@ -72,6 +76,12 @@
             for (var i=0;i<choices.length;i++){
                 choices[i].innerHTML = ""+(i*10);
             }
+        }
+
+        function changePage(){
+            var tempText = document.getElementById("text").innerHTML;
+            document.getElementById("text").innerHTML = changeScreen;
+            changeScreen = tempText;
         }
 
         function drop(event) {
@@ -147,7 +157,7 @@
         <br>}
     </p>
 
-    <button id="change" class="button" onclick="changeChoice()">Change</button>
+    <button id="changePage" class="button" onclick="changePage()">Change</button>
     <button id="submit" class="button" style="top: 70%"onclick="getElement()">Submit</button>
 </div>
 </body>
