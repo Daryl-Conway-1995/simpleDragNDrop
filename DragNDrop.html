@@ -3,27 +3,29 @@
 <head>
     <style>
         .place{
-             float: left;
-             width: 250px;
-             height: 45px;
-             margin: 10px;
-             padding-left: 20px;
-             padding-top: 1px;
+             width: 50px;
+             height: 43px;
+             text-align: center;
              border: 3px solid black;
          }
          #mainBody{
              float: left;
-             width: 70%;
+             width: 60%;
              height: 80%;
              margin: 10px;
              padding: 10px;
              border: 3px solid green;
+             position: absolute;
+             left: 21%;
+             top: 10%;
          }
          .text{
              position: relative;
              font-size: 30px;
+             left: 22%;
+             top: 10%;
          }
-         #submit{
+         .button{
              position: absolute;
              left: 30%;
              top: 80%;
@@ -37,24 +39,26 @@
             position:absolute;
             left: 6%;
             top: 10%;
-            width: 10%;
+            width: 252px;
             height: 80%;
             margin: 10px;
             padding: 10px;
             border: 3px solid red;
         }
         .drag {
-            float: left;
-            padding: 5px;
-            margin: 7px;
             text-align: center;
             font-size: 30px;
             border: 1px dashed cornflowerblue;
-            width: 175px;
-            height: 40px;
+            width: 50px;
+            height: 45px;
         }
     </style>
     <script>
+
+        var text = '{"value":"place holder", "placement":"place holder"}';
+
+
+
         function allowDrop(event) {
             event.preventDefault();
         }
@@ -63,17 +67,49 @@
             event.dataTransfer.setData("text", event.target.id);
         }
 
+        function changeChoice(){
+            var choices = document.getElementsByClassName("drag");
+            for (var i=0;i<choices.length;i++){
+                choices[i].innerHTML = ""+(i*10);
+            }
+        }
+
         function drop(event) {
             event.preventDefault();
-            if(event.target.className == "place"||event.target.className=="selection") {
+            if( "place" == event.target.className) {
                 var data = event.dataTransfer.getData("text");
-                event.target.appendChild(document.getElementById(data));
+                event.target.innerHTML = "&emsp;"+document.getElementById(data).innerHTML+"&emsp;";
+            }
+            if("missing" == event.target.className){
+                event.target.value = event.dataTransfer.getData("text");
             }
         }
 
         function getElement(event){
-            console.log(document.getElementById("place1").firstChild);
+            var placements = document.getElementsByClassName("place");
+            var JsonArray = [];
+            for(var i =0;i<placements.length;i++) {
+                var JsonObject = JSON.parse(text);
+                if (document.getElementById(placements[i].id).hasChildNodes()) {
+                    JsonObject.value = (document.getElementById(placements[i].id).firstChild.textContent);
+                    JsonObject.placement = placements[i].id;
+                }
+                else {
+                    JsonObject.value = "";
+                    JsonObject.placement = "";
+                }
+                JsonArray.push(JsonObject);
+            }
+            console.log(JSON.stringify(JsonArray));
         }
+
+        function shuffle() {
+            var parent = ("selection");
+            var divs = document.getElementById(parent).children;
+            while (divs.length) {
+                document.getElementById(parent).append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
+            }
+        };
     </script>
 </head>
 <body>
@@ -82,46 +118,37 @@
 
     <div id="selection" ondrop="drop(event)" ondragover="allowDrop(event)" class="selection">
     selectable option here
-    <div id="drag1" draggable="true" ondragstart="drag(event)" class="drag">
-        1
-    </div>
-    <div id="drag2" draggable="true" ondragstart="drag(event)" class="drag">
-         2
-    </div>
-    <div id="drag3" draggable="true" ondragstart="drag(event)" class="drag">
-        3
-    </div>
-    <div id="drag4" draggable="true" ondragstart="drag(event)" class="drag">
-        4
-    </div>
-    <div id="drag5" draggable="true" ondragstart="drag(event)" class="drag">
-        5
-    </div>
-    <div id="drag6" draggable="true" ondragstart="drag(event)" class="drag">
-        6
-    </div>
-    <div id="drag7" draggable="true" ondragstart="drag(event)" class="drag">
-        7
-    </div>
-    <div id="drag8" draggable="true" ondragstart="drag(event)" class="drag">
-        8
-    </div>
-    <div id="drag9" draggable="true" ondragstart="drag(event)" class="drag">
-        9
-    </div>
-    <div id="drag10" draggable="true" ondragstart="drag(event)" class="drag">
-        10
-    </div>
-    <div id="drag11" draggable="true" ondragstart="drag(event)" class="drag">
-        11
-    </div>
+        <div id="drag1" draggable="true" ondragstart="drag(event)" class="drag">1</div>
+        <div id="drag2" draggable="true" ondragstart="drag(event)" class="drag">2</div>
+        <div id="drag3" draggable="true" ondragstart="drag(event)" class="drag">3</div>
+        <div id="drag4" draggable="true" ondragstart="drag(event)" class="drag">4</div>
+        <div id="drag5" draggable="true" ondragstart="drag(event)" class="drag">5</div>
+        <div id="drag6" draggable="true" ondragstart="drag(event)" class="drag">6</div>
+        <div id="drag7" draggable="true" ondragstart="drag(event)" class="drag">7</div>
+        <div id="drag8" draggable="true" ondragstart="drag(event)" class="drag">8</div>
+        <div id="drag9" draggable="true" ondragstart="drag(event)" class="drag">9</div>
+        <div id="drag10" draggable="true" ondragstart="drag(event)" class="drag">10</div>
+
+
 </div>
 
-<div id="mainBody" style="position: absolute;left: 19%; top: 10%">
-    <p id="text" style="left: 22%; top: 10%" class="text">Finish the following code to make "myInt" equal 10 <br><br><br> public static void main{
-        <br>    myInt = 5; <br> for(int i = 0; i < __________________ ;i++)<br> { <br> myInt++; <br> } <br>}</p>
-<div id="place1" ondrop="drop(event)" ondragover="allowDrop(event)" style="position: absolute; top: 34%; left: 36%" class="place"></div>
-<button id="submit" onclick="getElement()">Submit</button>
+<div id="mainBody">
+
+    <p id="text" class="text">
+            Finish the following code to make "myInt" equal 10
+        <br>
+        <br>
+        <br> public static void main{
+        <br>myInt = 5;
+        <br>for(int i = 0; i < <span id="place1" ondrop="drop(event)" ondragover="allowDrop(event)" class="place">&emsp;&emsp;</span> ;i++)
+        <br>&emsp;{ <span id="place2" ondrop="drop(event)" ondragover="allowDrop(event)" class="place">&emsp;&emsp;</span>
+        <br>&emsp;&emsp;myInt++;
+        <br>&emsp;}
+        <br>}
+    </p>
+
+    <button id="change" class="button" onclick="changeChoice()">Change</button>
+    <button id="submit" class="button" style="top: 70%"onclick="getElement()">Submit</button>
 </div>
 </body>
 </html>
