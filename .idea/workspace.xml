@@ -19,8 +19,8 @@
       <file leaf-file-name="DragNDrop.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DragNDrop.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="54" column="12" lean-forward="true" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
+            <state relative-caret-position="406">
+              <caret line="94" column="9" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
               <folding>
                 <element signature="e#133#139#0" expanded="true" />
                 <element signature="e#139#145#0" expanded="true" />
@@ -28,14 +28,16 @@
                 <element signature="e#270#276#0" expanded="true" />
                 <element signature="e#379#385#0" expanded="true" />
                 <element signature="e#385#391#0" expanded="true" />
-                <element signature="e#4530#4536#0" expanded="true" />
-                <element signature="e#4561#4567#0" expanded="true" />
-                <element signature="e#4694#4700#0" expanded="true" />
-                <element signature="e#4790#4796#0" expanded="true" />
-                <element signature="e#4796#4802#0" expanded="true" />
-                <element signature="e#4708#4714#0" expanded="true" />
-                <element signature="e#4720#4726#0" expanded="true" />
-                <element signature="e#4729#4735#0" expanded="true" />
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#5687#5693#0" expanded="true" />
+                <element signature="e#5693#5699#0" expanded="true" />
+                <element signature="e#5725#5731#0" expanded="true" />
+                <element signature="e#5816#5822#0" expanded="true" />
+                <element signature="e#5822#5828#0" expanded="true" />
+                <element signature="e#5848#5854#0" expanded="true" />
+                <element signature="e#5854#5860#0" expanded="true" />
+                <element signature="e#5881#5887#0" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -74,6 +76,8 @@
     <findStrings>
       <find>\n\&lt;h2\&gt;Drag and Drop\&lt;\/h2\&gt;\n\n\&lt;div id\=\&quot;place1\&quot; ondrop\=\&quot;drop\(event\)\&quot; ondragover\=\&quot;allowDrop\(event\)\&quot; style\=\&quot;position\:absolute\; left\: 6\%\; top\: 10\%\;\&quot;\&gt;\n    selectable option here\n    \&lt;div id\=\&quot;drag1\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; id\=\&quot;drag1\&quot;\&gt;\n        I AM A DRAGGABLE OBJECT\n    \&lt;\/div\&gt;\n    \&lt;div id\=\&quot;drag2\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; id\=\&quot;drag1\&quot;\&gt;\n    I AM ALSO A DRAGGABLE OBJECT\n\&lt;\/div\&gt;\n\&lt;\/div\&gt;\n</find>
       <find>\&lt;div id\=\&quot;drag1\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;1\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag1\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;1\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag1\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;1\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag1\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;1\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag1\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;1\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag1\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;1\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag1\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;1\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag1\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;1\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag1\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;1\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag1\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;1\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag1\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;1\&lt;\/div\&gt;\n</find>
+      <find>place</find>
+      <find>\&lt;h2\&gt;Drag and Drop\&lt;\/h2\&gt;\n\&lt;div id\=\&quot;everything\&quot; class\=\&quot;everything\&quot;\&gt;\n\n    \&lt;div id\=\&quot;selection\&quot; ondrop\=\&quot;drop\(event\)\&quot; ondragover\=\&quot;allowDrop\(event\)\&quot; class\=\&quot;selection\&quot;\&gt;\n    selectable option here\n        \&lt;div id\=\&quot;drag1\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;1\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag2\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;2\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag3\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;3\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag4\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;4\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag5\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;5\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag6\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;6\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag7\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;7\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag8\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;8\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag9\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;9\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag10\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;10\&lt;\/div\&gt;\n\n\n\&lt;\/div\&gt;\n\n\&lt;div id\=\&quot;mainBody\&quot;\&gt;\n\n    \&lt;p id\=\&quot;text\&quot; class\=\&quot;text\&quot;\&gt;\n            Finish the following code to make \&quot;myInt\&quot; equal 10\n        \&lt;br\&gt;\n        \&lt;br\&gt;\n        \&lt;br\&gt; public static void main\{\n        \&lt;br\&gt;myInt \= 5\;\n        \&lt;br\&gt;for\(int i \= 0\; i \&lt; \&lt;span id\=\&quot;place1\&quot; ondrop\=\&quot;drop\(event\)\&quot; ondragover\=\&quot;allowDrop\(event\)\&quot; class\=\&quot;place\&quot;\&gt;\&amp;emsp\;\&amp;emsp\;\&lt;\/span\&gt; \;i\+\+\)\n        \&lt;br\&gt;\&amp;emsp\;\{ \&lt;span id\=\&quot;place2\&quot; ondrop\=\&quot;drop\(event\)\&quot; ondragover\=\&quot;allowDrop\(event\)\&quot; class\=\&quot;place\&quot;\&gt;\&amp;emsp\;\&amp;emsp\;\&lt;\/span\&gt;\n        \&lt;br\&gt;\&amp;emsp\;\&amp;emsp\;myInt\+\+\;\n        \&lt;br\&gt;\&amp;emsp\;\}\n        \&lt;br\&gt;\}\n    \&lt;\/p\&gt;\n\n    \&lt;button id\=\&quot;changeChoice\&quot; class\=\&quot;button\&quot; style\=\&quot;left\: 50\%\;\&quot; onclick\=\&quot;changeChoice\(\)\&quot;\&gt;changeChoice\&lt;\/button\&gt;\n    \&lt;button id\=\&quot;changePage\&quot; class\=\&quot;button\&quot; onclick\=\&quot;changePage\(\)\&quot;\&gt;Change\&lt;\/button\&gt;\n    \&lt;button id\=\&quot;submit\&quot; class\=\&quot;button\&quot; style\=\&quot;top\: 70\%\&quot;onclick\=\&quot;getElement\(\)\&quot;\&gt;Submit\&lt;\/button\&gt;\n\&lt;\/div\&gt;\n\&lt;\/div\&gt;\n\&lt;\/body\&gt;\n\&lt;\/html\&gt;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -157,22 +161,22 @@
       <updated>1532261387264</updated>
       <workItem from="1532261388493" duration="6565000" />
       <workItem from="1532269064106" duration="461000" />
-      <workItem from="1532335999367" duration="25616000" />
+      <workItem from="1532335999367" duration="31106000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32642000" />
+    <option name="totallyTimeSpent" value="38132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12447917" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12447917" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.037194476" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -205,14 +209,16 @@
             <element signature="e#270#276#0" expanded="true" />
             <element signature="e#379#385#0" expanded="true" />
             <element signature="e#385#391#0" expanded="true" />
-            <element signature="e#4530#4536#0" expanded="true" />
-            <element signature="e#4561#4567#0" expanded="true" />
-            <element signature="e#4694#4700#0" expanded="true" />
-            <element signature="e#4790#4796#0" expanded="true" />
-            <element signature="e#4796#4802#0" expanded="true" />
-            <element signature="e#4708#4714#0" expanded="true" />
-            <element signature="e#4720#4726#0" expanded="true" />
-            <element signature="e#4729#4735#0" expanded="true" />
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#5687#5693#0" expanded="true" />
+            <element signature="e#5693#5699#0" expanded="true" />
+            <element signature="e#5725#5731#0" expanded="true" />
+            <element signature="e#5816#5822#0" expanded="true" />
+            <element signature="e#5822#5828#0" expanded="true" />
+            <element signature="e#5848#5854#0" expanded="true" />
+            <element signature="e#5854#5860#0" expanded="true" />
+            <element signature="e#5881#5887#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -229,14 +235,16 @@
             <element signature="e#270#276#0" expanded="true" />
             <element signature="e#379#385#0" expanded="true" />
             <element signature="e#385#391#0" expanded="true" />
-            <element signature="e#4530#4536#0" expanded="true" />
-            <element signature="e#4561#4567#0" expanded="true" />
-            <element signature="e#4694#4700#0" expanded="true" />
-            <element signature="e#4790#4796#0" expanded="true" />
-            <element signature="e#4796#4802#0" expanded="true" />
-            <element signature="e#4708#4714#0" expanded="true" />
-            <element signature="e#4720#4726#0" expanded="true" />
-            <element signature="e#4729#4735#0" expanded="true" />
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#5687#5693#0" expanded="true" />
+            <element signature="e#5693#5699#0" expanded="true" />
+            <element signature="e#5725#5731#0" expanded="true" />
+            <element signature="e#5816#5822#0" expanded="true" />
+            <element signature="e#5822#5828#0" expanded="true" />
+            <element signature="e#5848#5854#0" expanded="true" />
+            <element signature="e#5854#5860#0" expanded="true" />
+            <element signature="e#5881#5887#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -261,8 +269,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DragNDrop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="54" column="12" lean-forward="true" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
+        <state relative-caret-position="406">
+          <caret line="94" column="9" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
           <folding>
             <element signature="e#133#139#0" expanded="true" />
             <element signature="e#139#145#0" expanded="true" />
@@ -270,14 +278,16 @@
             <element signature="e#270#276#0" expanded="true" />
             <element signature="e#379#385#0" expanded="true" />
             <element signature="e#385#391#0" expanded="true" />
-            <element signature="e#4530#4536#0" expanded="true" />
-            <element signature="e#4561#4567#0" expanded="true" />
-            <element signature="e#4694#4700#0" expanded="true" />
-            <element signature="e#4790#4796#0" expanded="true" />
-            <element signature="e#4796#4802#0" expanded="true" />
-            <element signature="e#4708#4714#0" expanded="true" />
-            <element signature="e#4720#4726#0" expanded="true" />
-            <element signature="e#4729#4735#0" expanded="true" />
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#5687#5693#0" expanded="true" />
+            <element signature="e#5693#5699#0" expanded="true" />
+            <element signature="e#5725#5731#0" expanded="true" />
+            <element signature="e#5816#5822#0" expanded="true" />
+            <element signature="e#5822#5828#0" expanded="true" />
+            <element signature="e#5848#5854#0" expanded="true" />
+            <element signature="e#5854#5860#0" expanded="true" />
+            <element signature="e#5881#5887#0" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
