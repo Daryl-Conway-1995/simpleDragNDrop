@@ -73,6 +73,38 @@
             "<br> <span id=\"place3\" ondrop=\"drop(event)\" ondragover=\"allowDrop(event)\" class=\"place\">&emsp;&emsp;</span>";
 
 
+        var input2 = [{
+            "id": 1,
+            "levelCode":     "<br> <span id=\"place1\" ondrop=\"drop(event)\" ondragover=\"allowDrop(event)\" class=\"place\">&emsp;&emsp;</span>"
+        }]
+
+       var input = [{
+            "id": 1,
+            "levelDifficulty": 1,
+            "levelPosition": 1,
+            "levelNumber": "1A",
+            "levelName": "Hello World!",
+            "levelDescription": "Put a child friendly description of level here (Build Hello World)",
+            "levelCode": "public class Hello{<br> public static void main() {<br> System.out.println(\"Hello World \") <span id=\"place1\" ondrop=\"drop(event)\" data-wow=\"\" ondragover=\"allowDrop(event)\" class=\"place\">&emsp;&emsp;</span><br><span id=\"place2\" ondrop=\"drop(event)\" data-wow=\"\" ondragover=\"allowDrop(event)\" class=\"place\">&emsp;&emsp;</span>}",
+            "timer": 600,
+            "chances": 5,
+            "solution": [{
+                "answerPosition": "place1",
+                "answerCodeSnippet": ";",
+                "id": 5
+            },{
+                "answerPosition": "placeD",
+                "answerCodeSnippet": ".",
+                "id": 6
+            },{
+                "answerPosition": "place2",
+                "answerCodeSnippet": "hello",
+                "id": 7
+            }
+            ]
+        }];
+
+        console.log(input);
         function allowDrop(event) {
             event.preventDefault();
         }
@@ -81,16 +113,41 @@
             event.dataTransfer.setData("text", event.target.id);
         }
 
+        function shuffle(a) {
+            var j, x, i;
+            for (i = a.length - 1; i > 0; i--) {
+                j = Math.floor(Math.random() * (i + 1));
+                x = a[i];
+                a[i] = a[j];
+                a[j] = x;
+            }
+            return a;
+        }
+
         function changeChoice(){
             var choices = document.getElementsByClassName("drag");
-            for (var i=0;i<choices.length;i++){
-                choices[i].innerHTML = ""+(i*10);
+            document.getElementById("selection").innerHTML = "";
+            var answers = input[0].solution;
+
+            for (var i=0; i< answers.length;i++) {
+                document.getElementById("selection").innerHTML = document.getElementById("selection").innerHTML +"<div id=\"drag"+i+"\" draggable=\"true\" ondragstart=\"drag(event)\" class=\"drag\">1</div>"
+
+            }
+
+            var shuffAnswers = shuffle(answers);
+            console.log(shuffAnswers[0].answerCodeSnippet);
+            var snippet;
+            for (var j=0;j<choices.length;j++){
+                snippet = shuffAnswers[j].answerCodeSnippet;
+                ansPos = shuffAnswers[j].answerPosition;
+                choices[j].innerHTML = snippet;
+                choices[j].dataset.attr1 = ansPos;
             }
         }
 
         function changePage(){
             var tempText = document.getElementById("text").innerHTML;
-            document.getElementById("text").innerHTML = changeScreen;
+            document.getElementById("text").innerHTML = input[0].levelCode;
             changeScreen = tempText;
         }
 
@@ -103,6 +160,19 @@
             if("missing" == event.target.className){
                 event.target.value = event.dataTransfer.getData("text");
             }
+        }
+
+        function isCorrect(){
+            var answers = input[0].solution;
+            for (var i=0; i< answers.length;i++) {
+                if (answers[i].answerPosition != "placeD"){
+                    if(document.getElementById(answers[i].answerPosition).innerHTML != "\u2003"+answers[i].answerCodeSnippet+"\u2003"){
+                        return ("There was a mismatch with your answers")
+                    }
+                }
+
+            }
+                return ("All of your answers was correct!")
         }
 
         function getElement(event){
@@ -120,16 +190,7 @@
                 }
                 JsonArray.push(JsonObject);
             }
-            console.log(JSON.stringify(JsonArray));
         }
-
-        function shuffle() {
-            var parent = ("selection");
-            var divs = document.getElementById(parent).children;
-            while (divs.length) {
-                document.getElementById(parent).append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
-            }
-        };
     </script>
 </head>
 <body style="background-color: #b5cdce;">
@@ -168,7 +229,7 @@
 
     <button id="changeChoice" class="button" style="left: 50%;" onclick="changeChoice()">changeChoice</button>
     <button id="changePage" class="button" onclick="changePage()">Change</button>
-    <button id="submit" class="button" style="top: 70%"onclick="getElement()">Submit</button>
+    <button id="submit" class="button" style="top: 70%"onclick="console.log(isCorrect())">Submit</button>
 </div>
 </body>
 </html>

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f93d8e4-cbcc-4aed-b96f-2d38366c1063" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DragNDrop.html" beforeDir="false" afterPath="$PROJECT_DIR$/DragNDrop.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,8 +20,8 @@
       <file leaf-file-name="DragNDrop.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DragNDrop.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="94" column="9" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
+            <state relative-caret-position="453">
+              <caret line="218" column="12" lean-forward="true" selection-start-line="218" selection-start-column="12" selection-end-line="218" selection-end-column="12" />
               <folding>
                 <element signature="e#133#139#0" expanded="true" />
                 <element signature="e#139#145#0" expanded="true" />
@@ -28,6 +29,12 @@
                 <element signature="e#270#276#0" expanded="true" />
                 <element signature="e#379#385#0" expanded="true" />
                 <element signature="e#385#391#0" expanded="true" />
+                <element signature="e#96#102#0" expanded="true" />
+                <element signature="e#102#108#0" expanded="true" />
+                <element signature="e#50#56#0" expanded="true" />
+                <element signature="e#56#62#0" expanded="true" />
+                <element signature="e#326#332#0" expanded="true" />
+                <element signature="e#332#338#0" expanded="true" />
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#5687#5693#0" expanded="true" />
                 <element signature="e#5693#5699#0" expanded="true" />
@@ -78,6 +85,9 @@
       <find>\&lt;div id\=\&quot;drag1\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;1\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag1\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;1\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag1\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;1\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag1\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;1\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag1\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;1\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag1\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;1\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag1\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;1\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag1\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;1\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag1\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;1\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag1\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;1\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag1\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;1\&lt;\/div\&gt;\n</find>
       <find>place</find>
       <find>\&lt;h2\&gt;Drag and Drop\&lt;\/h2\&gt;\n\&lt;div id\=\&quot;everything\&quot; class\=\&quot;everything\&quot;\&gt;\n\n    \&lt;div id\=\&quot;selection\&quot; ondrop\=\&quot;drop\(event\)\&quot; ondragover\=\&quot;allowDrop\(event\)\&quot; class\=\&quot;selection\&quot;\&gt;\n    selectable option here\n        \&lt;div id\=\&quot;drag1\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;1\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag2\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;2\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag3\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;3\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag4\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;4\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag5\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;5\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag6\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;6\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag7\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;7\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag8\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;8\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag9\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;9\&lt;\/div\&gt;\n        \&lt;div id\=\&quot;drag10\&quot; draggable\=\&quot;true\&quot; ondragstart\=\&quot;drag\(event\)\&quot; class\=\&quot;drag\&quot;\&gt;10\&lt;\/div\&gt;\n\n\n\&lt;\/div\&gt;\n\n\&lt;div id\=\&quot;mainBody\&quot;\&gt;\n\n    \&lt;p id\=\&quot;text\&quot; class\=\&quot;text\&quot;\&gt;\n            Finish the following code to make \&quot;myInt\&quot; equal 10\n        \&lt;br\&gt;\n        \&lt;br\&gt;\n        \&lt;br\&gt; public static void main\{\n        \&lt;br\&gt;myInt \= 5\;\n        \&lt;br\&gt;for\(int i \= 0\; i \&lt; \&lt;span id\=\&quot;place1\&quot; ondrop\=\&quot;drop\(event\)\&quot; ondragover\=\&quot;allowDrop\(event\)\&quot; class\=\&quot;place\&quot;\&gt;\&amp;emsp\;\&amp;emsp\;\&lt;\/span\&gt; \;i\+\+\)\n        \&lt;br\&gt;\&amp;emsp\;\{ \&lt;span id\=\&quot;place2\&quot; ondrop\=\&quot;drop\(event\)\&quot; ondragover\=\&quot;allowDrop\(event\)\&quot; class\=\&quot;place\&quot;\&gt;\&amp;emsp\;\&amp;emsp\;\&lt;\/span\&gt;\n        \&lt;br\&gt;\&amp;emsp\;\&amp;emsp\;myInt\+\+\;\n        \&lt;br\&gt;\&amp;emsp\;\}\n        \&lt;br\&gt;\}\n    \&lt;\/p\&gt;\n\n    \&lt;button id\=\&quot;changeChoice\&quot; class\=\&quot;button\&quot; style\=\&quot;left\: 50\%\;\&quot; onclick\=\&quot;changeChoice\(\)\&quot;\&gt;changeChoice\&lt;\/button\&gt;\n    \&lt;button id\=\&quot;changePage\&quot; class\=\&quot;button\&quot; onclick\=\&quot;changePage\(\)\&quot;\&gt;Change\&lt;\/button\&gt;\n    \&lt;button id\=\&quot;submit\&quot; class\=\&quot;button\&quot; style\=\&quot;top\: 70\%\&quot;onclick\=\&quot;getElement\(\)\&quot;\&gt;Submit\&lt;\/button\&gt;\n\&lt;\/div\&gt;\n\&lt;\/div\&gt;\n\&lt;\/body\&gt;\n\&lt;\/html\&gt;</find>
+      <find>\r</find>
+      <find>\n</find>
+      <find>consol</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -101,7 +111,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -161,12 +171,12 @@
       <updated>1532261387264</updated>
       <workItem from="1532261388493" duration="6565000" />
       <workItem from="1532269064106" duration="461000" />
-      <workItem from="1532335999367" duration="31106000" />
+      <workItem from="1532335999367" duration="42461000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38132000" />
+    <option name="totallyTimeSpent" value="49487000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -209,6 +219,12 @@
             <element signature="e#270#276#0" expanded="true" />
             <element signature="e#379#385#0" expanded="true" />
             <element signature="e#385#391#0" expanded="true" />
+            <element signature="e#96#102#0" expanded="true" />
+            <element signature="e#102#108#0" expanded="true" />
+            <element signature="e#50#56#0" expanded="true" />
+            <element signature="e#56#62#0" expanded="true" />
+            <element signature="e#326#332#0" expanded="true" />
+            <element signature="e#332#338#0" expanded="true" />
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#5687#5693#0" expanded="true" />
             <element signature="e#5693#5699#0" expanded="true" />
@@ -235,6 +251,12 @@
             <element signature="e#270#276#0" expanded="true" />
             <element signature="e#379#385#0" expanded="true" />
             <element signature="e#385#391#0" expanded="true" />
+            <element signature="e#96#102#0" expanded="true" />
+            <element signature="e#102#108#0" expanded="true" />
+            <element signature="e#50#56#0" expanded="true" />
+            <element signature="e#56#62#0" expanded="true" />
+            <element signature="e#326#332#0" expanded="true" />
+            <element signature="e#332#338#0" expanded="true" />
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#5687#5693#0" expanded="true" />
             <element signature="e#5693#5699#0" expanded="true" />
@@ -269,8 +291,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DragNDrop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="94" column="9" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
+        <state relative-caret-position="453">
+          <caret line="218" column="12" lean-forward="true" selection-start-line="218" selection-start-column="12" selection-end-line="218" selection-end-column="12" />
           <folding>
             <element signature="e#133#139#0" expanded="true" />
             <element signature="e#139#145#0" expanded="true" />
@@ -278,6 +300,12 @@
             <element signature="e#270#276#0" expanded="true" />
             <element signature="e#379#385#0" expanded="true" />
             <element signature="e#385#391#0" expanded="true" />
+            <element signature="e#96#102#0" expanded="true" />
+            <element signature="e#102#108#0" expanded="true" />
+            <element signature="e#50#56#0" expanded="true" />
+            <element signature="e#56#62#0" expanded="true" />
+            <element signature="e#326#332#0" expanded="true" />
+            <element signature="e#332#338#0" expanded="true" />
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#5687#5693#0" expanded="true" />
             <element signature="e#5693#5699#0" expanded="true" />
