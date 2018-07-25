@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f93d8e4-cbcc-4aed-b96f-2d38366c1063" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DragNDrop.html" beforeDir="false" afterPath="$PROJECT_DIR$/DragNDrop.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,15 +19,9 @@
       <file leaf-file-name="DragNDrop.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DragNDrop.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="218" column="12" lean-forward="true" selection-start-line="218" selection-start-column="12" selection-end-line="218" selection-end-column="12" />
+            <state relative-caret-position="2184">
+              <caret line="220" column="32" lean-forward="true" selection-start-line="220" selection-start-column="32" selection-end-line="220" selection-end-column="32" />
               <folding>
-                <element signature="e#133#139#0" expanded="true" />
-                <element signature="e#139#145#0" expanded="true" />
-                <element signature="e#264#270#0" expanded="true" />
-                <element signature="e#270#276#0" expanded="true" />
-                <element signature="e#379#385#0" expanded="true" />
-                <element signature="e#385#391#0" expanded="true" />
                 <element signature="e#96#102#0" expanded="true" />
                 <element signature="e#102#108#0" expanded="true" />
                 <element signature="e#50#56#0" expanded="true" />
@@ -45,7 +38,7 @@
                 <element signature="e#5854#5860#0" expanded="true" />
                 <element signature="e#5881#5887#0" expanded="true" />
                 <element signature="n#style#0;n#button#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -171,12 +164,12 @@
       <updated>1532261387264</updated>
       <workItem from="1532261388493" duration="6565000" />
       <workItem from="1532269064106" duration="461000" />
-      <workItem from="1532335999367" duration="42461000" />
+      <workItem from="1532335999367" duration="48793000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49487000" />
+    <option name="totallyTimeSpent" value="55819000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -185,8 +178,8 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12447917" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.037194476" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005208" side_tool="true" weight="0.10945802" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49947917" visible="true" weight="0.011689692" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -213,12 +206,6 @@
         <state relative-caret-position="714">
           <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
           <folding>
-            <element signature="e#133#139#0" expanded="true" />
-            <element signature="e#139#145#0" expanded="true" />
-            <element signature="e#264#270#0" expanded="true" />
-            <element signature="e#270#276#0" expanded="true" />
-            <element signature="e#379#385#0" expanded="true" />
-            <element signature="e#385#391#0" expanded="true" />
             <element signature="e#96#102#0" expanded="true" />
             <element signature="e#102#108#0" expanded="true" />
             <element signature="e#50#56#0" expanded="true" />
@@ -235,7 +222,7 @@
             <element signature="e#5854#5860#0" expanded="true" />
             <element signature="e#5881#5887#0" expanded="true" />
             <element signature="n#style#0;n#button#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -245,12 +232,6 @@
         <state relative-caret-position="459">
           <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
           <folding>
-            <element signature="e#133#139#0" expanded="true" />
-            <element signature="e#139#145#0" expanded="true" />
-            <element signature="e#264#270#0" expanded="true" />
-            <element signature="e#270#276#0" expanded="true" />
-            <element signature="e#379#385#0" expanded="true" />
-            <element signature="e#385#391#0" expanded="true" />
             <element signature="e#96#102#0" expanded="true" />
             <element signature="e#102#108#0" expanded="true" />
             <element signature="e#50#56#0" expanded="true" />
@@ -267,7 +248,7 @@
             <element signature="e#5854#5860#0" expanded="true" />
             <element signature="e#5881#5887#0" expanded="true" />
             <element signature="n#style#0;n#button#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -291,15 +272,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DragNDrop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="218" column="12" lean-forward="true" selection-start-line="218" selection-start-column="12" selection-end-line="218" selection-end-column="12" />
+        <state relative-caret-position="2184">
+          <caret line="220" column="32" lean-forward="true" selection-start-line="220" selection-start-column="32" selection-end-line="220" selection-end-column="32" />
           <folding>
-            <element signature="e#133#139#0" expanded="true" />
-            <element signature="e#139#145#0" expanded="true" />
-            <element signature="e#264#270#0" expanded="true" />
-            <element signature="e#270#276#0" expanded="true" />
-            <element signature="e#379#385#0" expanded="true" />
-            <element signature="e#385#391#0" expanded="true" />
             <element signature="e#96#102#0" expanded="true" />
             <element signature="e#102#108#0" expanded="true" />
             <element signature="e#50#56#0" expanded="true" />
@@ -316,7 +291,7 @@
             <element signature="e#5854#5860#0" expanded="true" />
             <element signature="e#5881#5887#0" expanded="true" />
             <element signature="n#style#0;n#button#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

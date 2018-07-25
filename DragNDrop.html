@@ -66,11 +66,7 @@
     <script>
 
         var text = '{"value":"place holder", "placement":"place holder"}';
-        var changeScreen = "this has changed " +
-            "<br>hope this works " +
-            "<br> <span id=\"place1\" ondrop=\"drop(event)\" ondragover=\"allowDrop(event)\" class=\"place\">&emsp;&emsp;</span>" +
-            "<br> <span id=\"place2\" ondrop=\"drop(event)\" ondragover=\"allowDrop(event)\" class=\"place\">&emsp;&emsp;</span>" +
-            "<br> <span id=\"place3\" ondrop=\"drop(event)\" ondragover=\"allowDrop(event)\" class=\"place\">&emsp;&emsp;</span>";
+        var count =0;
 
 
         var input2 = [{
@@ -135,7 +131,6 @@
             }
 
             var shuffAnswers = shuffle(answers);
-            console.log(shuffAnswers[0].answerCodeSnippet);
             var snippet;
             for (var j=0;j<choices.length;j++){
                 snippet = shuffAnswers[j].answerCodeSnippet;
@@ -146,9 +141,8 @@
         }
 
         function changePage(){
-            var tempText = document.getElementById("text").innerHTML;
+            count = 0;
             document.getElementById("text").innerHTML = input[0].levelCode;
-            changeScreen = tempText;
         }
 
         function drop(event) {
@@ -163,6 +157,7 @@
         }
 
         function isCorrect(){
+            count++;
             var answers = input[0].solution;
             for (var i=0; i< answers.length;i++) {
                 if (answers[i].answerPosition != "placeD"){
@@ -172,7 +167,8 @@
                 }
 
             }
-                return ("All of your answers was correct!")
+                if (count>1) {return ("All of your answers was correct! it only took you "+count+ " tries.");}
+                else {return ("All of your answers was correct! it only took you "+count+ " try.");}
         }
 
         function getElement(event){
@@ -229,7 +225,7 @@
 
     <button id="changeChoice" class="button" style="left: 50%;" onclick="changeChoice()">changeChoice</button>
     <button id="changePage" class="button" onclick="changePage()">Change</button>
-    <button id="submit" class="button" style="top: 70%"onclick="console.log(isCorrect())">Submit</button>
+    <button id="submit" class="button" style=" top: 70%"onclick="console.log(isCorrect())">Submit</button>
 </div>
 </body>
 </html>
